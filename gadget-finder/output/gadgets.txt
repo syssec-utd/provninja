@@ -1,0 +1,99 @@
+winword.exe -> firefox.exe -> sshd.exe -> ssh-shellhost.exe -> cmd.exe -> conhost.exe -> wininit.exe -> services.exe -> svchost.exe -> taskhostw.exe -> ngentask.exe -> ngen.exe -> winlogon.exe -> userinit.exe -> explorer.exe -> notepad.exe: 1.00e+01
+winword.exe -> firefox.exe -> officeclicktorun.exe -> schtasks.exe -> conhost.exe -> wininit.exe -> services.exe -> svchost.exe -> taskhostw.exe -> ngentask.exe -> ngen.exe -> winlogon.exe -> userinit.exe -> explorer.exe -> notepad.exe: 2.60e-01
+winword.exe -> firefox.exe -> sshd.exe -> ssh-shellhost.exe -> cmd.exe -> conhost.exe -> wininit.exe -> services.exe -> msmpeng.exe -> svchost.exe -> taskhostw.exe -> ngentask.exe -> ngen.exe -> winlogon.exe -> userinit.exe -> explorer.exe -> notepad.exe: 2.26e-01
+winword.exe -> firefox.exe -> nssm.exe -> python.exe -> conhost.exe -> wininit.exe -> services.exe -> svchost.exe -> taskhostw.exe -> ngentask.exe -> ngen.exe -> winlogon.exe -> userinit.exe -> explorer.exe -> notepad.exe: 7.76e-03
+winword.exe -> firefox.exe -> officeclicktorun.exe -> schtasks.exe -> conhost.exe -> wininit.exe -> services.exe -> msmpeng.exe -> svchost.exe -> taskhostw.exe -> ngentask.exe -> ngen.exe -> winlogon.exe -> userinit.exe -> explorer.exe -> notepad.exe: 5.88e-03
+winword.exe -> firefox.exe -> sshd.exe -> conhost.exe -> wininit.exe -> services.exe -> svchost.exe -> taskhostw.exe -> ngentask.exe -> ngen.exe -> winlogon.exe -> userinit.exe -> explorer.exe -> notepad.exe: 5.55e-04
+winword.exe -> firefox.exe -> minidump-analyzer.exe -> conhost.exe -> wininit.exe -> services.exe -> svchost.exe -> taskhostw.exe -> ngentask.exe -> ngen.exe -> winlogon.exe -> userinit.exe -> explorer.exe -> notepad.exe: 2.23e-04
+winword.exe -> firefox.exe -> nssm.exe -> python.exe -> conhost.exe -> wininit.exe -> services.exe -> msmpeng.exe -> svchost.exe -> taskhostw.exe -> ngentask.exe -> ngen.exe -> winlogon.exe -> userinit.exe -> explorer.exe -> notepad.exe: 1.76e-04
+winword.exe -> firefox.exe -> tvnserver.exe -> mpcmdrun.exe -> conhost.exe -> wininit.exe -> services.exe -> svchost.exe -> taskhostw.exe -> ngentask.exe -> ngen.exe -> winlogon.exe -> userinit.exe -> explorer.exe -> notepad.exe: 4.95e-05
+winword.exe -> firefox.exe -> svchost.exe -> taskhostw.exe -> ngentask.exe -> ngen.exe -> mpcmdrun.exe -> conhost.exe -> wininit.exe -> winlogon.exe -> userinit.exe -> explorer.exe -> notepad.exe: 1.88e-05
+winword.exe -> firefox.exe -> sshd.exe -> conhost.exe -> wininit.exe -> services.exe -> msmpeng.exe -> svchost.exe -> taskhostw.exe -> ngentask.exe -> ngen.exe -> winlogon.exe -> userinit.exe -> explorer.exe -> notepad.exe: 1.26e-05
+winword.exe -> firefox.exe -> sshd.exe -> ssh-shellhost.exe -> cmd.exe -> conhost.exe -> wininit.exe -> services.exe -> svchost.exe -> shellexperiencehost.exe -> werfault.exe -> explorer.exe -> notepad.exe: 9.03e-06
+winword.exe -> firefox.exe -> sshd.exe -> mpcmdrun.exe -> conhost.exe -> wininit.exe -> services.exe -> svchost.exe -> taskhostw.exe -> ngentask.exe -> ngen.exe -> winlogon.exe -> userinit.exe -> explorer.exe -> notepad.exe: 7.31e-06
+winword.exe -> firefox.exe -> minidump-analyzer.exe -> conhost.exe -> wininit.exe -> services.exe -> msmpeng.exe -> svchost.exe -> taskhostw.exe -> ngentask.exe -> ngen.exe -> winlogon.exe -> userinit.exe -> explorer.exe -> notepad.exe: 5.05e-06
+winword.exe -> firefox.exe -> sshd.exe -> ssh-shellhost.exe -> cmd.exe -> conhost.exe -> wininit.exe -> winlogon.exe -> userinit.exe -> explorer.exe -> notepad.exe: 2.73e-06
+winword.exe -> firefox.exe -> svchost.exe -> taskhostw.exe -> ngentask.exe -> ngen.exe -> winlogon.exe -> userinit.exe -> explorer.exe -> notepad.exe: 1.19e-06
+winword.exe -> firefox.exe -> tvnserver.exe -> mpcmdrun.exe -> conhost.exe -> wininit.exe -> services.exe -> msmpeng.exe -> svchost.exe -> taskhostw.exe -> ngentask.exe -> ngen.exe -> winlogon.exe -> userinit.exe -> explorer.exe -> notepad.exe: 1.12e-06
+winword.exe -> firefox.exe -> sshd.exe -> ssh-shellhost.exe -> cmd.exe -> conhost.exe -> wininit.exe -> services.exe -> svchost.exe -> werfault.exe -> explorer.exe -> notepad.exe: 9.82e-07
+winword.exe -> firefox.exe -> officeclicktorun.exe -> schtasks.exe -> conhost.exe -> wininit.exe -> services.exe -> svchost.exe -> shellexperiencehost.exe -> werfault.exe -> explorer.exe -> notepad.exe: 2.35e-07
+winword.exe -> firefox.exe -> sshd.exe -> ssh-shellhost.exe -> cmd.exe -> conhost.exe -> wininit.exe -> services.exe -> msmpeng.exe -> svchost.exe -> shellexperiencehost.exe -> werfault.exe -> explorer.exe -> notepad.exe: 2.04e-07
+winword.exe -> firefox.exe -> sshd.exe -> mpcmdrun.exe -> conhost.exe -> wininit.exe -> services.exe -> msmpeng.exe -> svchost.exe -> taskhostw.exe -> ngentask.exe -> ngen.exe -> winlogon.exe -> userinit.exe -> explorer.exe -> notepad.exe: 1.66e-07
+winword.exe -> firefox.exe -> svchost.exe -> rundll32.exe -> winsat.exe -> conhost.exe -> wininit.exe -> winlogon.exe -> userinit.exe -> explorer.exe -> notepad.exe: 1.33e-07
+winword.exe -> firefox.exe -> officeclicktorun.exe -> schtasks.exe -> conhost.exe -> wininit.exe -> winlogon.exe -> userinit.exe -> explorer.exe -> notepad.exe: 7.09e-08
+winword.exe -> firefox.exe -> svchost.exe -> taskhostw.exe -> ngentask.exe -> conhost.exe -> wininit.exe -> winlogon.exe -> userinit.exe -> explorer.exe -> notepad.exe: 4.96e-08
+winword.exe -> firefox.exe -> svchost.exe -> taskhostw.exe -> ngentask.exe -> ngen.exe -> mpcmdrun.exe -> conhost.exe -> wininit.exe -> werfault.exe -> explorer.exe -> notepad.exe: 3.99e-08
+winword.exe -> firefox.exe -> svchost.exe -> dllhost.exe -> mpcmdrun.exe -> conhost.exe -> wininit.exe -> winlogon.exe -> userinit.exe -> explorer.exe -> notepad.exe: 3.98e-08
+winword.exe -> firefox.exe -> officeclicktorun.exe -> schtasks.exe -> conhost.exe -> wininit.exe -> services.exe -> svchost.exe -> werfault.exe -> explorer.exe -> notepad.exe: 2.55e-08
+winword.exe -> firefox.exe -> sshd.exe -> ssh-shellhost.exe -> cmd.exe -> conhost.exe -> wininit.exe -> services.exe -> msmpeng.exe -> svchost.exe -> werfault.exe -> explorer.exe -> notepad.exe: 2.22e-08
+winword.exe -> firefox.exe -> nssm.exe -> python.exe -> conhost.exe -> wininit.exe -> services.exe -> svchost.exe -> shellexperiencehost.exe -> werfault.exe -> explorer.exe -> notepad.exe: 7.01e-09
+winword.exe -> firefox.exe -> sshd.exe -> ssh-shellhost.exe -> cmd.exe -> conhost.exe -> wininit.exe -> werfault.exe -> explorer.exe -> notepad.exe: 5.78e-09
+winword.exe -> firefox.exe -> svchost.exe -> sc.exe -> conhost.exe -> wininit.exe -> winlogon.exe -> userinit.exe -> explorer.exe -> notepad.exe: 5.38e-09
+winword.exe -> firefox.exe -> officeclicktorun.exe -> schtasks.exe -> conhost.exe -> wininit.exe -> services.exe -> msmpeng.exe -> svchost.exe -> shellexperiencehost.exe -> werfault.exe -> explorer.exe -> notepad.exe: 5.31e-09
+winword.exe -> firefox.exe -> svchost.exe -> mpcmdrun.exe -> conhost.exe -> wininit.exe -> winlogon.exe -> userinit.exe -> explorer.exe -> notepad.exe: 4.69e-09
+winword.exe -> firefox.exe -> svchost.exe -> sihclient.exe -> conhost.exe -> wininit.exe -> winlogon.exe -> userinit.exe -> explorer.exe -> notepad.exe: 2.18e-09
+winword.exe -> firefox.exe -> nssm.exe -> python.exe -> conhost.exe -> wininit.exe -> winlogon.exe -> userinit.exe -> explorer.exe -> notepad.exe: 2.12e-09
+winword.exe -> firefox.exe -> svchost.exe -> appidcertstorecheck.exe -> conhost.exe -> wininit.exe -> winlogon.exe -> userinit.exe -> explorer.exe -> notepad.exe: 2.10e-09
+winword.exe -> firefox.exe -> svchost.exe -> disksnapshot.exe -> conhost.exe -> wininit.exe -> winlogon.exe -> userinit.exe -> explorer.exe -> notepad.exe: 1.77e-09
+winword.exe -> firefox.exe -> svchost.exe -> dmclient.exe -> conhost.exe -> wininit.exe -> winlogon.exe -> userinit.exe -> explorer.exe -> notepad.exe: 1.77e-09
+winword.exe -> firefox.exe -> svchost.exe -> dstokenclean.exe -> conhost.exe -> wininit.exe -> winlogon.exe -> userinit.exe -> explorer.exe -> notepad.exe: 1.77e-09
+winword.exe -> firefox.exe -> svchost.exe -> defrag.exe -> conhost.exe -> wininit.exe -> winlogon.exe -> userinit.exe -> explorer.exe -> notepad.exe: 1.50e-09
+winword.exe -> firefox.exe -> svchost.exe -> devicecensus.exe -> conhost.exe -> wininit.exe -> winlogon.exe -> userinit.exe -> explorer.exe -> notepad.exe: 1.49e-09
+winword.exe -> firefox.exe -> svchost.exe -> compattelrunner.exe -> conhost.exe -> wininit.exe -> winlogon.exe -> userinit.exe -> explorer.exe -> notepad.exe: 1.44e-09
+winword.exe -> firefox.exe -> nssm.exe -> python.exe -> conhost.exe -> wininit.exe -> services.exe -> svchost.exe -> werfault.exe -> explorer.exe -> notepad.exe: 7.62e-10
+winword.exe -> firefox.exe -> officeclicktorun.exe -> schtasks.exe -> conhost.exe -> wininit.exe -> services.exe -> msmpeng.exe -> svchost.exe -> werfault.exe -> explorer.exe -> notepad.exe: 5.78e-10
+winword.exe -> firefox.exe -> svchost.exe -> sdiagnhost.exe -> conhost.exe -> wininit.exe -> winlogon.exe -> userinit.exe -> explorer.exe -> notepad.exe: 5.77e-10
+winword.exe -> firefox.exe -> svchost.exe -> lpremove.exe -> conhost.exe -> wininit.exe -> winlogon.exe -> userinit.exe -> explorer.exe -> notepad.exe: 5.19e-10
+winword.exe -> firefox.exe -> sshd.exe -> conhost.exe -> wininit.exe -> services.exe -> svchost.exe -> shellexperiencehost.exe -> werfault.exe -> explorer.exe -> notepad.exe: 5.01e-10
+winword.exe -> firefox.exe -> svchost.exe -> tzsync.exe -> conhost.exe -> wininit.exe -> winlogon.exe -> userinit.exe -> explorer.exe -> notepad.exe: 3.85e-10
+winword.exe -> firefox.exe -> svchost.exe -> srtasks.exe -> conhost.exe -> wininit.exe -> winlogon.exe -> userinit.exe -> explorer.exe -> notepad.exe: 3.46e-10
+winword.exe -> firefox.exe -> svchost.exe -> rundll32.exe -> winsat.exe -> conhost.exe -> wininit.exe -> werfault.exe -> explorer.exe -> notepad.exe: 2.82e-10
+winword.exe -> firefox.exe -> svchost.exe -> wininit.exe -> winlogon.exe -> userinit.exe -> explorer.exe -> notepad.exe: 2.68e-10
+winword.exe -> firefox.exe -> minidump-analyzer.exe -> conhost.exe -> wininit.exe -> services.exe -> svchost.exe -> shellexperiencehost.exe -> werfault.exe -> explorer.exe -> notepad.exe: 2.01e-10
+winword.exe -> firefox.exe -> nssm.exe -> python.exe -> conhost.exe -> wininit.exe -> services.exe -> msmpeng.exe -> svchost.exe -> shellexperiencehost.exe -> werfault.exe -> explorer.exe -> notepad.exe: 1.59e-10
+winword.exe -> firefox.exe -> sshd.exe -> conhost.exe -> wininit.exe -> winlogon.exe -> userinit.exe -> explorer.exe -> notepad.exe: 1.51e-10
+winword.exe -> firefox.exe -> officeclicktorun.exe -> schtasks.exe -> conhost.exe -> wininit.exe -> werfault.exe -> explorer.exe -> notepad.exe: 1.50e-10
+winword.exe -> firefox.exe -> svchost.exe -> taskhostw.exe -> ngentask.exe -> conhost.exe -> wininit.exe -> werfault.exe -> explorer.exe -> notepad.exe: 1.05e-10
+winword.exe -> firefox.exe -> svchost.exe -> dllhost.exe -> mpcmdrun.exe -> conhost.exe -> wininit.exe -> werfault.exe -> explorer.exe -> notepad.exe: 8.43e-11
+winword.exe -> firefox.exe -> minidump-analyzer.exe -> conhost.exe -> wininit.exe -> winlogon.exe -> userinit.exe -> explorer.exe -> notepad.exe: 6.09e-11
+winword.exe -> firefox.exe -> sshd.exe -> conhost.exe -> wininit.exe -> services.exe -> svchost.exe -> werfault.exe -> explorer.exe -> notepad.exe: 5.45e-11
+winword.exe -> firefox.exe -> tvnserver.exe -> mpcmdrun.exe -> conhost.exe -> wininit.exe -> services.exe -> svchost.exe -> shellexperiencehost.exe -> werfault.exe -> explorer.exe -> notepad.exe: 4.47e-11
+winword.exe -> firefox.exe -> minidump-analyzer.exe -> conhost.exe -> wininit.exe -> services.exe -> svchost.exe -> werfault.exe -> explorer.exe -> notepad.exe: 2.19e-11
+winword.exe -> firefox.exe -> nssm.exe -> python.exe -> conhost.exe -> wininit.exe -> services.exe -> msmpeng.exe -> svchost.exe -> werfault.exe -> explorer.exe -> notepad.exe: 1.73e-11
+winword.exe -> firefox.exe -> tvnserver.exe -> mpcmdrun.exe -> conhost.exe -> wininit.exe -> winlogon.exe -> userinit.exe -> explorer.exe -> notepad.exe: 1.35e-11
+winword.exe -> firefox.exe -> svchost.exe -> sc.exe -> conhost.exe -> wininit.exe -> werfault.exe -> explorer.exe -> notepad.exe: 1.14e-11
+winword.exe -> firefox.exe -> sshd.exe -> conhost.exe -> wininit.exe -> services.exe -> msmpeng.exe -> svchost.exe -> shellexperiencehost.exe -> werfault.exe -> explorer.exe -> notepad.exe: 1.14e-11
+winword.exe -> firefox.exe -> svchost.exe -> mpcmdrun.exe -> conhost.exe -> wininit.exe -> werfault.exe -> explorer.exe -> notepad.exe: 9.94e-12
+winword.exe -> firefox.exe -> sshd.exe -> mpcmdrun.exe -> conhost.exe -> wininit.exe -> services.exe -> svchost.exe -> shellexperiencehost.exe -> werfault.exe -> explorer.exe -> notepad.exe: 6.60e-12
+winword.exe -> firefox.exe -> tvnserver.exe -> mpcmdrun.exe -> conhost.exe -> wininit.exe -> services.exe -> svchost.exe -> werfault.exe -> explorer.exe -> notepad.exe: 4.86e-12
+winword.exe -> firefox.exe -> svchost.exe -> sihclient.exe -> conhost.exe -> wininit.exe -> werfault.exe -> explorer.exe -> notepad.exe: 4.61e-12
+winword.exe -> firefox.exe -> minidump-analyzer.exe -> conhost.exe -> wininit.exe -> services.exe -> msmpeng.exe -> svchost.exe -> shellexperiencehost.exe -> werfault.exe -> explorer.exe -> notepad.exe: 4.56e-12
+winword.exe -> firefox.exe -> nssm.exe -> python.exe -> conhost.exe -> wininit.exe -> werfault.exe -> explorer.exe -> notepad.exe: 4.49e-12
+winword.exe -> firefox.exe -> svchost.exe -> appidcertstorecheck.exe -> conhost.exe -> wininit.exe -> werfault.exe -> explorer.exe -> notepad.exe: 4.44e-12
+winword.exe -> firefox.exe -> svchost.exe -> disksnapshot.exe -> conhost.exe -> wininit.exe -> werfault.exe -> explorer.exe -> notepad.exe: 3.74e-12
+winword.exe -> firefox.exe -> svchost.exe -> dmclient.exe -> conhost.exe -> wininit.exe -> werfault.exe -> explorer.exe -> notepad.exe: 3.74e-12
+winword.exe -> firefox.exe -> svchost.exe -> dstokenclean.exe -> conhost.exe -> wininit.exe -> werfault.exe -> explorer.exe -> notepad.exe: 3.74e-12
+winword.exe -> firefox.exe -> svchost.exe -> defrag.exe -> conhost.exe -> wininit.exe -> werfault.exe -> explorer.exe -> notepad.exe: 3.18e-12
+winword.exe -> firefox.exe -> svchost.exe -> devicecensus.exe -> conhost.exe -> wininit.exe -> werfault.exe -> explorer.exe -> notepad.exe: 3.16e-12
+winword.exe -> firefox.exe -> svchost.exe -> compattelrunner.exe -> conhost.exe -> wininit.exe -> werfault.exe -> explorer.exe -> notepad.exe: 3.06e-12
+winword.exe -> firefox.exe -> sshd.exe -> mpcmdrun.exe -> conhost.exe -> wininit.exe -> winlogon.exe -> userinit.exe -> explorer.exe -> notepad.exe: 1.99e-12
+winword.exe -> firefox.exe -> sshd.exe -> conhost.exe -> wininit.exe -> services.exe -> msmpeng.exe -> svchost.exe -> werfault.exe -> explorer.exe -> notepad.exe: 1.23e-12
+winword.exe -> firefox.exe -> svchost.exe -> sdiagnhost.exe -> conhost.exe -> wininit.exe -> werfault.exe -> explorer.exe -> notepad.exe: 1.22e-12
+winword.exe -> firefox.exe -> svchost.exe -> lpremove.exe -> conhost.exe -> wininit.exe -> werfault.exe -> explorer.exe -> notepad.exe: 1.10e-12
+winword.exe -> firefox.exe -> svchost.exe -> shellexperiencehost.exe -> werfault.exe -> explorer.exe -> notepad.exe: 1.07e-12
+winword.exe -> firefox.exe -> tvnserver.exe -> mpcmdrun.exe -> conhost.exe -> wininit.exe -> services.exe -> msmpeng.exe -> svchost.exe -> shellexperiencehost.exe -> werfault.exe -> explorer.exe -> notepad.exe: 1.01e-12
+winword.exe -> firefox.exe -> svchost.exe -> tzsync.exe -> conhost.exe -> wininit.exe -> werfault.exe -> explorer.exe -> notepad.exe: 8.15e-13
+winword.exe -> firefox.exe -> svchost.exe -> srtasks.exe -> conhost.exe -> wininit.exe -> werfault.exe -> explorer.exe -> notepad.exe: 7.33e-13
+winword.exe -> firefox.exe -> sshd.exe -> mpcmdrun.exe -> conhost.exe -> wininit.exe -> services.exe -> svchost.exe -> werfault.exe -> explorer.exe -> notepad.exe: 7.18e-13
+winword.exe -> firefox.exe -> svchost.exe -> wininit.exe -> werfault.exe -> explorer.exe -> notepad.exe: 5.69e-13
+winword.exe -> firefox.exe -> minidump-analyzer.exe -> conhost.exe -> wininit.exe -> services.exe -> msmpeng.exe -> svchost.exe -> werfault.exe -> explorer.exe -> notepad.exe: 4.96e-13
+winword.exe -> firefox.exe -> sshd.exe -> conhost.exe -> wininit.exe -> werfault.exe -> explorer.exe -> notepad.exe: 3.21e-13
+winword.exe -> firefox.exe -> sshd.exe -> mpcmdrun.exe -> conhost.exe -> wininit.exe -> services.exe -> msmpeng.exe -> svchost.exe -> shellexperiencehost.exe -> werfault.exe -> explorer.exe -> notepad.exe: 1.49e-13
+winword.exe -> firefox.exe -> minidump-analyzer.exe -> conhost.exe -> wininit.exe -> werfault.exe -> explorer.exe -> notepad.exe: 1.29e-13
+winword.exe -> firefox.exe -> svchost.exe -> werfault.exe -> explorer.exe -> notepad.exe: 1.17e-13
+winword.exe -> firefox.exe -> tvnserver.exe -> mpcmdrun.exe -> conhost.exe -> wininit.exe -> services.exe -> msmpeng.exe -> svchost.exe -> werfault.exe -> explorer.exe -> notepad.exe: 1.10e-13
+winword.exe -> firefox.exe -> werfault.exe -> explorer.exe -> notepad.exe: 8.66e-14
+winword.exe -> firefox.exe -> tvnserver.exe -> mpcmdrun.exe -> conhost.exe -> wininit.exe -> werfault.exe -> explorer.exe -> notepad.exe: 2.85e-14
+winword.exe -> firefox.exe -> sshd.exe -> mpcmdrun.exe -> conhost.exe -> wininit.exe -> services.exe -> msmpeng.exe -> svchost.exe -> werfault.exe -> explorer.exe -> notepad.exe: 1.62e-14
+winword.exe -> firefox.exe -> sshd.exe -> mpcmdrun.exe -> conhost.exe -> wininit.exe -> werfault.exe -> explorer.exe -> notepad.exe: 4.15e-15
+winword.exe -> werfault.exe -> explorer.exe -> notepad.exe: 0.00e+00

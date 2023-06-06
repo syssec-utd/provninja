@@ -1,0 +1,39 @@
+{
+    "process": [
+        [
+            [
+                "xfce4-terminal"
+            ],
+            38
+        ],
+        [
+            [
+                "bash"
+            ],
+            6
+        ],
+        [
+            [
+                "gnome-pty-helper"
+            ],
+            6
+        ]
+    ],
+    "files": [
+        [
+            [
+                "Read_Content",
+                "/lib/x86_64-linux-gnu/libexpat.so.1"
+            ],
+            2
+        ],
+        [
+            [
+                "Read_Content",
+                "/etc/fonts/conf.d/49-sansserif.conf"
+            ],
+            1
+        ]
+    ],
+    "ips": []
+}

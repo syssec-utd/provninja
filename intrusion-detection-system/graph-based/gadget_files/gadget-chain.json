@@ -1,0 +1,107 @@
+{
+    "('/usr/bin/sudo', '/usr/bin/docker')": [
+        ["/usr/bin/sh", "/usr/bin/bash"],
+        ["/usr/bin/sh", "/usr/bin/perl", "/usr/bin/xfce-terminal", "/usr/bin/bash"],
+        ["/usr/bin/sh", "/usr/bin/run-parts", "/usr/bin/bash"]
+    ],
+    "('/usr/bin/docker', '/usr/bin/sudo')": [
+        ["/usr/bin/sh", "/usr/bin/env"],
+        ["/usr/bin/bash", "/usr/bin/perl", "/usr/bin/xfce-terminal"],
+        ["/usr/bin/sh", "/usr/bin/run-parts", "/usr/bin/bash"]
+    ],
+    "('/usr/bin/bash', '/usr/bin/docker')": [
+        ["/usr/bin/sh", "/usr/bin/anacron", "/usr/bin/sh", "/usr/bin/bash"],
+        ["/usr/bin/sh", "/usr/bin/env", "/usr/bin/sh", "/usr/bin/bash"]
+    ],
+    "('/usr/bin/bash', '/usr/bin/git')": [
+        ["/usr/bin/dpkg", "/usr/bin/sh", "/usr/bin/python3.8", "/usr/bin/bash"],
+        ["/usr/bin/sh", "/usr/bin/perl", "/usr/bin/mandb", "/usr/bin/bash"],
+        ["/usr/bin/sh", "/usr/bin/fiberlamp", "/usr/bin/python3.8", "/usr/bin/bash"],
+        ["/usr/bin/sh", "/usr/bin/env", "/usr/bin/python3.8", "/usr/bin/bash"]
+    ],
+    "('/usr/bin/docker', '/usr/libexec/docker/cli-plugins/docker-scan')": [
+        ["/usr/bin/sh", "/usr/bin/bash", "/usr/bin/sh", "/usr/bin/bash"],
+        ["/usr/bin/sh", "/usr/bin/thunderbird", "/usr/bin/sh", "/usr/bin/bash"],
+        ["/usr/bin/sh", "/usr/bin/python3.8", "/usr/bin/sh", "/usr/bin/bash"],
+        ["/usr/bin/sh", "/usr/bin/python3.8", "/usr/bin/bash"],
+        ["/usr/bin/sh", "/usr/bin//usr/bin/sh", "/usr/bin/start-stop-daemon"]
+    ],
+    "('/usr/bin/docker', '/usr/libexec/docker/cli-plugins/docker-buildx')": [
+        ["/usr/bin/sh", "/usr/bin/env", "/usr/bin/python3.8", "/usr/bin/bash"],
+        ["/usr/bin/sh", "/usr/bin/bash", "/usr/bin/python3.8", "/usr/bin/bash"],
+        ["/usr/bin/sh", "/usr/bin/python3.8", "/usr/bin/sh", "/usr/bin/bash"]
+    ],
+    "('/usr/bin/docker', '/usr/libexec/docker/cli-plugins/docker-app')": [
+        ["/usr/bin/dpkg", "/usr/bin/sh", "/usr/bin/bash"],
+        ["/usr/bin/sh", "/usr/bin/perl", "/usr/bin/mandb", "/usr/bin/bash"],
+        ["/usr/bin/sh", "/usr/bin/fiberlamp", "/usr/bin/python3.8", "/usr/bin/bash"]
+    ],
+    "('/usr/bin/docker', '/root/.docker/cli-plugins/docker-compose')": [
+        ["/usr/bin/sh", "/usr/bin/start-stop-daemon", "/usr/bin/sh", "/usr/bin/bash"],
+        ["/usr/bin/sh", "/usr/bin/thunderbird", "/usr/bin/sh", "/usr/bin/bash"],
+        ["/usr/bin/sh", "/usr/bin/dpkg", "/usr/bin/sh", "/usr/bin/bash"],
+        ["/usr/bin/sh", "/usr/bin/env", "/usr/bin/sh", "/usr/bin/bash"],
+        ["/usr/bin/sh", "/usr/bin/bash", "/usr/bin/sh", "/usr/bin/bash"],
+        ["/usr/bin/dpkg", "/usr/bin/sh", "/usr/bin/run-parts", "/usr/bin/bash"]
+    ],
+    "('/usr/bin/dockerd', '/usr/bin/dockerd')": [
+        ["/usr/bin/dockerd"]
+    ],
+    "('/usr/bin/python3.8', '/usr/bin/python3.8')": [
+        ["/usr/bin/python3.8"]
+    ],
+    "('/usr/bin/dash', '/usr/bin/python3.8')": [
+        ["/usr/bin/thunderbird", "/usr/bin/python3.8", "/usr/bin/bash"],
+        ["/usr/bin/sh", "/usr/bin/python3.8", "/usr/bin/bash"],
+        ["/usr/bin/sh", "/usr/bin//usr/bin/sh", "/usr/bin/start-stop-daemon"],
+        ["/usr/bin/sh", "/usr/bin/run-parts", "/usr/bin/python3.8", "/usr/bin/bash"],
+        ["/usr/bin/sh", "/usr/bin/thunderbird", "/usr/bin/python3.8", "/usr/bin/bash"],
+        ["/usr/bin/sh", "/usr/bin/env", "/usr/bin/python3.8", "/usr/bin/bash"],
+        ["/usr/bin/sh", "/usr/bin/bash", "/usr/bin/python3.8", "/usr/bin/bash"],
+        ["/usr/bin/sh", "/usr/bin/python3.8", "/usr/bin/sh", "/usr/bin/bash"]
+    ],
+    "('/usr/bin/python3.8', '/usr/bin/dash')": [
+        ["/usr/bin/sh", "/usr/bin/bash"],
+        ["/usr/bin/sh", "/usr/bin/perl", "/usr/bin/xfce-terminal", "/usr/bin/bash"],
+        ["/usr/bin/sh", "/usr/bin/run-parts", "/usr/bin/bash"],
+        ["/usr/bin/sh", "/usr/bin/perl", "/usr/bin/mandb", "/usr/bin/bash"],
+        ["/usr/bin/sh", "/usr/bin/fiberlamp", "/usr/bin/python3.8", "/usr/bin/bash"],
+        ["/usr/bin/dpkg", "/usr/bin/sh", "/usr/bin/python3.8", "/usr/bin/bash"],
+        ["/usr/bin/sh", "/usr/bin/run-parts", "/usr/bin/python3.8", "/usr/bin/bash"],
+        ["/usr/bin/sh", "/usr/bin/thunderbird", "/usr/bin/python3.8", "/usr/bin/bash"],
+        ["/usr/bin/sh", "/usr/bin/env", "/usr/bin/python3.8", "/usr/bin/bash"]
+    ],
+    "('/usr/bin/python3.8', '/usr/bin/dpkg')": [
+        ["/usr/bin/sh", "/usr/bin/env", "/usr/bin/run-parts", "/usr/bin/bash"],
+        ["/usr/bin/sh", "/usr/bin/python3.8", "/usr/bin/bash"],
+        ["/usr/bin/sh", "/usr/bin/start-stop-daemon", "/usr/bin/sh", "/usr/bin/bash"],
+        ["/usr/bin/sh", "/usr/bin/thunderbird", "/usr/bin/sh", "/usr/bin/bash"],
+        ["/usr/bin/sh", "/usr/bin/thunderbird", "/usr/bin/python3.8", "/usr/bin/bash"],
+        ["/usr/bin/sh", "/usr/bin/env", "/usr/bin/python3.8", "/usr/bin/bash"]
+    ],
+    "('/usr/bin/python3.8', '/usr/lib/git-core/git')": [
+        ["/usr/bin/sh", "/usr/bin/env", "/usr/bin/run-parts", "/usr/bin/bash"],
+        ["/usr/bin/sh", "/usr/bin/python3.8", "/usr/bin/bash"],
+        ["/usr/bin/sh", "/usr/bin//usr/bin/sh", "/usr/bin/start-stop-daemon"]
+    ],
+    "('/usr/bin/runc', '/usr/bin/dockerd')": [
+        ["/usr/bin/sh", "/usr/bin/env", "/usr/bin/sh", "/usr/bin/bash"],
+        ["/usr/bin/sh", "/usr/bin/bash", "/usr/bin/sh", "/usr/bin/bash"],
+        ["/usr/bin/sh", "/usr/bin/start-stop-daemon", "/usr/bin/sh", "/usr/bin/bash"],
+        ["/usr/bin/sh", "/usr/bin/thunderbird", "/usr/bin/sh", "/usr/bin/bash"]
+    ],
+    "('/usr/bin/dockerd', '/usr/bin/runc')": [
+        ["/usr/bin/sh", "/usr/bin/env", "/usr/bin/sh", "/usr/bin/bash"],
+        ["/usr/bin/sh", "/usr/bin/start-stop-daemon", "/usr/bin/sh", "/usr/bin/bash"],
+        ["/usr/bin/sh", "/usr/bin/thunderbird", "/usr/bin/sh", "/usr/bin/bash"]
+    ],
+    "('/usr/bin/containerd-shim-runc-v2', '/usr/bin/runc')": [
+        ["/usr/bin/bash"]
+    ],
+    "('/usr/bin/git', '/usr/bin/git')": [
+        ["/usr/bin/git"]
+    ],
+    "('/usr/bin/dpkg', '/usr/bin/dash')": [
+        ["/usr/bin/bash"]
+    ]
+}

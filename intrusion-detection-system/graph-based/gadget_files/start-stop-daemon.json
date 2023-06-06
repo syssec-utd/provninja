@@ -1,0 +1,32 @@
+{
+    "process": [
+        [
+            [
+                "start-stop-daemon"
+            ],
+            35
+        ],
+        [
+            [
+                "/usr/bin/mandb"
+            ],
+            9
+        ],
+        [
+            [
+                "/bin/sh"
+            ],
+            6
+        ]
+    ],
+    "files": [
+        [
+            [
+                "Read_Content",
+                "/lib/x86_64-linux-gnu/libnss_nis.so.2"
+            ],
+            4
+        ]
+    ],
+    "ips": []
+}

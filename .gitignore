@@ -1,0 +1,9 @@
+gadget-finder/logs
+.idea
+*__pycache__*
+*.zip
+intrusion-detection-system/graph-based/runs
+intrusion-detection-system/graph-based/images
+intrusion-detection-system/graph-based/logs
+intrusion-detection-system/graph-based/sample-supply-chain-data/
+intrusion-detection-system/sample-supply-chain-data.zip

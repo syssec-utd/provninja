@@ -1,0 +1,44 @@
+{
+    "process": [
+        [
+            [
+                "/usr/bin/python"
+            ],
+            90
+        ]
+    ],
+    "files": [
+        [
+            [
+                "Read_Content",
+                "/usr/bin/python2.7"
+            ],
+            249
+        ],
+        [
+            [
+                "Read_Content",
+                "/run/resolvconf/resolv.conf"
+            ],
+            124
+        ]
+    ],
+    "ips": [
+        [
+            [
+                "Write_Content",
+                "128.55.12.110",
+                "128.55.12.10"
+            ],
+            167
+        ],
+        [
+            [
+                "Read_Content",
+                "128.55.12.110",
+                "128.55.12.10"
+            ],
+            166
+        ]
+    ]
+}

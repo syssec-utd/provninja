@@ -1,0 +1,29 @@
+2023-06-20 21:05:04,219 | INFO	| Malware Detection with GAT model using /home/USER/provninja/provninja/intrusion-detection-system/graph-based/sample-supply-chain-data as input data directory
+2023-06-20 21:05:04,219 | INFO	| Structural graph training is turned off
+2023-06-20 21:05:04,219 | INFO	| Bidirectional dataset is turned on
+2023-06-20 21:05:04,220 | INFO	| 5 Layer GNN. Input Feature Size: 768. Hidden Layer Size(s): 10. Loss Rate: 0.001
+2023-06-20 21:05:04,220 | INFO	| LR Scheduler is off
+2023-06-20 21:05:04,220 | INFO	| Batch size: 128. Number of workers: 1
+2023-06-20 21:05:04,220 | INFO	| Input Device: cpu
+2023-06-20 21:05:04,220 | INFO	| Stratified sampler is enabled
+2023-06-20 21:05:04,220 | INFO	| Training on 20 epochs...
+2023-06-20 21:05:07,806 | INFO	| Length of dataset: 4276
+2023-06-20 21:05:07,831 | INFO	| Evaluating on Device: cpu
+2023-06-20 21:05:07,832 | INFO	| # Parameters in model: 115231
+2023-06-20 21:05:07,832 | INFO	| # Trainable parameters in model: 115231
+2023-06-20 21:05:07,833 | INFO	| Stratified sampler enabled
+2023-06-20 21:05:11,594 | INFO	| === test stats ===
+2023-06-20 21:05:11,594 | INFO	| Number Correct: 811
+2023-06-20 21:05:11,594 | INFO	| Number Graphs in test Data: 851
+2023-06-20 21:05:11,594 | INFO	| test accuracy: 0.95300
+2023-06-20 21:05:11,595 | INFO	| [[613  23]
+ [ 17 198]]
+2023-06-20 21:05:11,600 | INFO	|               precision    recall  f1-score   support
+
+      Benign       0.97      0.96      0.97       636
+     Anomaly       0.90      0.92      0.91       215
+
+    accuracy                           0.95       851
+   macro avg       0.93      0.94      0.94       851
+weighted avg       0.95      0.95      0.95       851
+
