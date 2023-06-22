@@ -72,8 +72,8 @@ Example output (subject to training & parameter changes):
 ```shell
 | filename                   |   tn |   tp |
 |:---------------------------|-----:|-----:|
-| tests/model-gadget.csv     |  634 |   31 |
 | tests/model-non-gadget.csv | 1233 |   48 |
+| tests/model-gadget.csv     |  634 |   31 |
 ```
 
 
