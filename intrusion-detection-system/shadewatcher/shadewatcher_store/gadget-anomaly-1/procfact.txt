@@ -1,0 +1,7 @@
+6
+-1716778767635066770 384 C:\\WINDOWS\\SYSTEM32\\CMD.EXE 1652 C:WindowsSystem32cmd.exe /Q /C %HOMEDRIVE%&cd %HOMEPATH%&(if exist Desktoppdf-sample-old.pdf (cd Desktop))&(if exist My Documentspdf-sample-old.pdf (cd My Documents))&(if exist Documentspdf-sample-old.pdf (cd Documents))&(if exist Escr
+-2975986158103972530 660 C:\WINDOWS\SYSTEM32\SVCHOST.EXE 1 C:\Windows\system32\svchost.exe -k DcomLaunch
+3010205171714125741 660 C:\\WINDOWS\\SYSTEM32\\SVCHOST.EXE 660 null
+8141646094633299845 5192 C:\WINDOWS\SYSTEM32\SEARCHPROTOCOLHOST.EXE 1 C:\Windows\system32\SearchProtocolHost.exe Global\\UsGthrFltPipeMssGthrPipe28_ Global\\UsGthrCtrlFltPipeMssGthrPipe28 1 -2147483646 Software\\Microsoft\\Windows Search Mozilla/4.0 (compatible; MSIE 6.0; Windows NT; MS Search 4.0 Robot) C:\\ProgramData\\Mi
+2035238680324163513 5384 C:\WINDOWS\SYSTEM32\MSIEXEC.EXE 1 C:\Windows\system32\msiexec.exe /V
+-3026382794121619718 1652 C:\\PROGRAM FILES\\ADOBE\\READER 9.0\\READER\\ACRORD32.EXE 660 C:Program FilesAdobeReader 9.0ReaderAcroRd32.exe -Embedding

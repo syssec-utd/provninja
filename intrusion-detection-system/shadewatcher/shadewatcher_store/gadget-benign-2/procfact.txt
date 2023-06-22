@@ -1,0 +1,5 @@
+4
+-455331957791489316 20460 C:\\PROGRAM FILES (X86)\\ADOBE\\ACROBAT READER DC\\READER\\ACRORD32.EXE 13540 C:Program Files (x86)AdobeAcrobat Reader DCReaderAcroRd32.exe --type=compute-only-renderer --ipc-rdr-channel=ko.b3ffd698.a008d03e.2 --ipc-co-channel=ko.b02805e3.261e7fc1.1 --proc=6300 --helperprocpid=1752 --channeltype=2 /n /prefetch:2
+-5028380886793076046 13540 C:\\PROGRAM FILES (X86)\\ADOBE\\ACROBAT READER DC\\READER\\ACRORD32.EXE 13540 null
+3956741735201439091 1752 C:\PROGRAM FILES (X86)\ADOBE\ACROBAT READER DC\READER\ACRORD32.EXE 1 C:\Program Files (x86)\Adobe\Acrobat Reader DC\Reader\AcroRd32.exe C:\\Users\\Chijung Jung\\Downloads\\Regularization matrices determined by matrix nearness problems.pdf
+-7652713565264197634 13540 C:\\PROGRAM FILES (X86)\\ADOBE\\ACROBAT READER DC\\READER\\ACRORD32.EXE 1752 C:Program Files (x86)AdobeAcrobat Reader DCReaderAcroRd32.exe --type=compute-only-broker --ipc-rdr-channel=ko.b3ffd698.a008d03e.2 --ipc-co-channel=ko.b02805e3.261e7fc1.1 --proc=6300 --helperprocpid=1752 --channeltype=2

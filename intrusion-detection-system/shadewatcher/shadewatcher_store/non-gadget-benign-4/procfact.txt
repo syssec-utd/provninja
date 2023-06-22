@@ -1,0 +1,16 @@
+15
+5118765717311156147 21508 C:\\PROGRAM FILES (X86)\\MICROSOFT OFFICE\\ROOT\\OFFICE16\\EXCEL.EXE 5356 C:Program Files (x86)Microsoft OfficeRootOffice16EXCEL.EXE D:College2021FallResearchstructural_reductionall_score_CPR.csv
+-6806480296806817791 20704 C:\PROGRAM FILES (X86)\MICROSOFT OFFICE\ROOT\OFFICE16\EXCEL.EXE 1 C:\Program Files (x86)\Microsoft Office\Root\Office16\EXCEL.EXE D:\\College\\2021\\Fall\\Research\\structural_reduction\\all_score_CPR.csv
+3805375453613253064 14660 C:\PROGRAM FILES (X86)\MICROSOFT OFFICE\ROOT\OFFICE16\EXCEL.EXE 1 C:\Program Files (x86)\Microsoft Office\Root\Office16\EXCEL.EXE D:\\College\\2021\\Fall\\Research\\structural_reduction\\all_score_JANK_REDUCTION.csv
+3679395317321293476 10420 C:\USERS\KAER\APPDATA\LOCAL\PROGRAMS\MICROSOFT VS CODE\CODE.EXE 1 C:\Users\kaer\AppData\Local\Programs\Microsoft VS Code\Code.exe --type=gpu-process --field-trial-handle=1652,6466671135419920797,6342340825274185268,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSit
+3092978643625585728 21072 C:\PROGRAM FILES (X86)\MICROSOFT OFFICE\ROOT\OFFICE16\EXCEL.EXE 1 C:\Program Files (x86)\Microsoft Office\Root\Office16\EXCEL.EXE D:\\College\\2021\\Fall\\Research\\structural_reduction\\all_score_CPR.csv
+5091531099454493674 4352 null 1 
+4270303748944146355 7912 C:\PROGRAM FILES (X86)\MICROSOFT OFFICE\ROOT\OFFICE16\EXCEL.EXE 1 C:\Program Files (x86)\Microsoft Office\Root\Office16\EXCEL.EXE D:\\College\\2021\\Fall\\Research\\structural_reduction\\all_score_PCAR.csv
+5948037690565813560 22360 C:\PROGRAM FILES (X86)\MICROSOFT OFFICE\ROOT\OFFICE16\WINWORD.EXE 1 C:\Program Files (x86)\Microsoft Office\Root\Office16\WINWORD.EXE /n /f D:\\College\\2021\\Fall\\Research\\structural_reduction\\data\\chengen-1\\chengen\\benignNew\\cat\\nd_211216_1203_25\\call_merged.dot
+3749784207781554720 956 C:\PROGRAM FILES (X86)\MICROSOFT OFFICE\ROOT\OFFICE16\EXCEL.EXE 1 C:\Program Files (x86)\Microsoft Office\Root\Office16\EXCEL.EXE D:\\College\\2021\\Fall\\Research\\structural_reduction\\all_score_LOGAPPROX.csv
+-1809581961350450110 4504 C:\PROGRAM FILES (X86)\MICROSOFT OFFICE\ROOT\OFFICE16\EXCEL.EXE 1 C:\Program Files (x86)\Microsoft Office\Root\Office16\EXCEL.EXE D:\\College\\2021\\Fall\\Research\\structural_reduction\\all_score_CPR.csv
+3857377875813986013 5864 C:\PROGRAM FILES (X86)\MICROSOFT OFFICE\ROOT\OFFICE16\EXCEL.EXE 1 C:\Program Files (x86)\Microsoft Office\Root\Office16\EXCEL.EXE D:\\College\\2021\\Fall\\Research\\structural_reduction\\all_score_CPR.csv
+7320400160211605401 4 (System) 1 (System)
+2403568547242862656 5356 C:\WINDOWS\EXPLORER.EXE 1 C:\WINDOWS\Explorer.EXE
+-8767852232018156156 14648 C:\PROGRAM FILES (X86)\MICROSOFT OFFICE\ROOT\OFFICE16\WINWORD.EXE 1 C:\Program Files (x86)\Microsoft Office\Root\Office16\WINWORD.EXE -Embedding
+7338065699624268277 19024 C:\PROGRAM FILES (X86)\MICROSOFT OFFICE\ROOT\OFFICE16\EXCEL.EXE 1 C:\Program Files (x86)\Microsoft Office\Root\Office16\EXCEL.EXE D:\\College\\2021\\Fall\\Research\\structural_reduction\\all_score_LOGAPPROX.csv

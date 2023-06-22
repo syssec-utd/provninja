@@ -1,0 +1,4 @@
+3
+-4079265260475246975 21828 C:\\PROGRAM FILES (X86)\\ADOBE\\ACROBAT READER DC\\READER\\ACRORD32.EXE 3200 C:Program Files (x86)AdobeAcrobat Reader DCReaderAcroRd32.exe --type=renderer /prefetch:1 C:UsersChijung JungDesktopref82_Randomized kinodynamic planning.pdf
+-8964952486573412780 11632 C:\WINDOWS\EXPLORER.EXE 1 C:\WINDOWS\Explorer.EXE
+2952512699036461704 3200 C:\\PROGRAM FILES (X86)\\ADOBE\\ACROBAT READER DC\\READER\\ACRORD32.EXE 11632 C:Program Files (x86)AdobeAcrobat Reader DCReaderAcroRd32.exe C:UsersChijung JungDesktopref82_Randomized kinodynamic planning.pdf

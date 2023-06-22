@@ -31,15 +31,13 @@ set -f
 
 # filesystem accessible dataset path
 data_dir="/data"
-# hyphen-joined replacement of data_dir path
-path_dir="${data_dir//\//-}"
-path_dir="${path_dir#-}"
 # evaluation output directory
 test_dir="tests"
 mkdir -p $test_dir
 
-# data caching directory
-store_dir="shadewatcher_store"
+# shadewatcher storage dir
+export STORE_DIR=$data_dir/shadewatcher_store
+
 # model prefix
 model="model"
 # training epochs
@@ -47,34 +45,36 @@ epochs=300
 # threshold for classification
 threshold=2.0
 
-
-# parse and cache shadewatcher representations of ASI JSON graph data
-python3.6 shadewatcher_parse.py "$data_dir/gadget/*/*/graph.json $data_dir/non-gadget/*/*/graph.json"
-
-
 ### train on benign dataset for non-gadget
-python3.6 shadewatcher_train.py "$store_dir/$path_dir-non-gadget-benign-*" $model-non-gadget --gnn_args="--epoch $epochs --threshold=$threshold --val_size 0.5"
+python3.6 shadewatcher_train.py "$STORE_DIR/non-gadget-benign-*" $model-non-gadget --gnn_args="--epoch $epochs --threshold=$threshold --val_size 0.5"
 
 # verify on benign dataset to obtain fn, tp
-python3.6 shadewatcher_eval.py "$store_dir/$path_dir-non-gadget-benign-*" $store_dir/$model-non-gadget $test_dir/$model-non-gadget.csv --benign --threshold=$threshold
+python3.6 shadewatcher_eval.py "$STORE_DIR/non-gadget-benign-*" $STORE_DIR/$model-non-gadget $test_dir/$model-non-gadget.csv --benign --threshold=$threshold
 # evaluate on anomaly dataset to obtain tn, fp
-python3.6 shadewatcher_eval.py "$store_dir/$path_dir-non-gadget-anomaly-*" $store_dir/$model-non-gadget $test_dir/$model-non-gadget.csv --threshold=$threshold
+python3.6 shadewatcher_eval.py "$STORE_DIR/non-gadget-anomaly-*" $STORE_DIR/$model-non-gadget $test_dir/$model-non-gadget.csv --threshold=$threshold
 
 ### train on benign dataset for gadget
-python3.6 shadewatcher_train.py "$store_dir/$path_dir-gadget-benign-*" $model-gadget --gnn_args="--epoch $epochs --threshold=$threshold --val_size 0.5"
+python3.6 shadewatcher_train.py "$STORE_DIR/gadget-benign-*" $model-gadget --gnn_args="--epoch $epochs --threshold=$threshold --val_size 0.5"
 
 # verify on benign dataset to obtain fn, tp
-python3.6 shadewatcher_eval.py "$store_dir/$path_dir-gadget-benign-*" $store_dir/$model-gadget $test_dir/$model-gadget.csv --benign --threshold=$threshold
+python3.6 shadewatcher_eval.py "$STORE_DIR/gadget-benign-*" $STORE_DIR/$model-gadget $test_dir/$model-gadget.csv --benign --threshold=$threshold
 # evaluate on anomaly dataset to obtain tn, fp
-python3.6 shadewatcher_eval.py "$store_dir/$path_dir-gadget-anomaly-*" $store_dir/$model-gadget $test_dir/$model-gadget.csv --threshold=$threshold
+python3.6 shadewatcher_eval.py "$STORE_DIR/gadget-anomaly-*" $STORE_DIR/$model-gadget $test_dir/$model-gadget.csv --threshold=$threshold
 
 # metric dependencies
 pip install pandas tabulate
 # display metrics in tabular form
 python3.6 compare_eval.py $test_dir
-
 ```
 
+Example output:
+
+```shell
+| filename                   |   tn |   fp |   tp |   fn |     f1 |   recall |    fpr |
+|:---------------------------|-----:|-----:|-----:|-----:|-------:|---------:|-------:|
+| tests/model-gadget.csv     |  634 |   30 |   31 |  625 | 0.0865 |   0.0473 | 0.0452 |
+| tests/model-non-gadget.csv | 1233 |   79 |   48 |  562 | 0.1303 |   0.0787 | 0.0602 |
+```
 
 
 
