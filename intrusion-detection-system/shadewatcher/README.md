@@ -64,16 +64,16 @@ python3.6 shadewatcher_eval.py "$STORE_DIR/gadget-anomaly-*" $STORE_DIR/$model-g
 # metric dependencies
 pip install pandas tabulate
 # display metrics in tabular form
-python3.6 compare_eval.py $test_dir
+python3.6 stat_eval.py $test_dir
 ```
 
 Example output (subject to training & parameter changes):
 
 ```shell
-| filename                   |   tn |   fp |   tp |   fn |     f1 |   recall |    fpr |
-|:---------------------------|-----:|-----:|-----:|-----:|-------:|---------:|-------:|
-| tests/model-gadget.csv     |  634 |   30 |   31 |  625 | 0.0865 |   0.0473 | 0.0452 |
-| tests/model-non-gadget.csv | 1233 |   79 |   48 |  562 | 0.1303 |   0.0787 | 0.0602 |
+| filename                   |   tn |   tp |
+|:---------------------------|-----:|-----:|
+| tests/model-gadget.csv     |  634 |   31 |
+| tests/model-non-gadget.csv | 1233 |   48 |
 ```
 
 
