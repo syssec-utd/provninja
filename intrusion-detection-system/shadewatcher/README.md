@@ -42,6 +42,8 @@ mkdir -p $test_dir
 store_dir="shadewatcher_store"
 # model prefix
 model="model"
+# training epochs
+epochs=300
 # threshold for classification
 threshold=2.0
 
@@ -51,16 +53,15 @@ python3.6 shadewatcher_parse.py "$data_dir/gadget/*/*/graph.json $data_dir/non-g
 
 
 ### train on benign dataset for non-gadget
-python3.6 shadewatcher_train.py "$store_dir/$path_dir-non-gadget-benign-*" $model-non-gadget --gnn_args="--epoch 200 --threshold=$threshold"
+python3.6 shadewatcher_train.py "$store_dir/$path_dir-non-gadget-benign-*" $model-non-gadget --gnn_args="--epoch $epochs --threshold=$threshold --val_size 0.5"
 
 # verify on benign dataset to obtain fn, tp
 python3.6 shadewatcher_eval.py "$store_dir/$path_dir-non-gadget-benign-*" $store_dir/$model-non-gadget $test_dir/$model-non-gadget.csv --benign --threshold=$threshold
 # evaluate on anomaly dataset to obtain tn, fp
 python3.6 shadewatcher_eval.py "$store_dir/$path_dir-non-gadget-anomaly-*" $store_dir/$model-non-gadget $test_dir/$model-non-gadget.csv --threshold=$threshold
 
-
 ### train on benign dataset for gadget
-python3.6 shadewatcher_train.py "$store_dir/$path_dir-gadget-benign-*" $model-gadget --gnn_args="--epoch 200 --threshold=$threshold"
+python3.6 shadewatcher_train.py "$store_dir/$path_dir-gadget-benign-*" $model-gadget --gnn_args="--epoch $epochs --threshold=$threshold --val_size 0.5"
 
 # verify on benign dataset to obtain fn, tp
 python3.6 shadewatcher_eval.py "$store_dir/$path_dir-gadget-benign-*" $store_dir/$model-gadget $test_dir/$model-gadget.csv --benign --threshold=$threshold
