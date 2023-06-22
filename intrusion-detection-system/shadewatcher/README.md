@@ -25,8 +25,6 @@ cd /ShadeWatcher
 git checkout data-processing-scripts 
 cd ./syssec-data-processing
 
-rm -rf shadewatcher_store/ tests/
-
 # disable glob (wildcard expansion),
 # since the intermediate scripts will perform expansion on their own.
 set -f
