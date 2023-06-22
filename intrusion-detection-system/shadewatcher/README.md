@@ -67,7 +67,7 @@ pip install pandas tabulate
 python3.6 compare_eval.py $test_dir
 ```
 
-Example output:
+Example output (subject to training & parameter changes):
 
 ```shell
 | filename                   |   tn |   fp |   tp |   fn |     f1 |   recall |    fpr |
