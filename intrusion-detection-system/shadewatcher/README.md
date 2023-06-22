@@ -65,6 +65,9 @@ python3.6 shadewatcher_eval.py "$STORE_DIR/gadget-anomaly-*" $STORE_DIR/$model-g
 pip install pandas tabulate
 # display metrics in tabular form
 python3.6 stat_eval.py $test_dir
+
+# Exit the docker
+exit
 ```
 
 Example output (subject to training & parameter changes):
@@ -75,6 +78,7 @@ Example output (subject to training & parameter changes):
 | tests/model-non-gadget.csv | 1233 |   48 |
 | tests/model-gadget.csv     |  634 |   31 |
 ```
+
 
 
 
