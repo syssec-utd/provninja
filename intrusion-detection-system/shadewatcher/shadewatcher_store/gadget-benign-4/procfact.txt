@@ -1,0 +1,3 @@
+2
+-8549633448280951855 5072 C:\\PROGRAM FILES (X86)\\ADOBE\\ACROBAT READER DC\\READER\\ACRORD32.EXE 8164 C:Program Files (x86)AdobeAcrobat Reader DCReaderAcroRd32.exe --type=compute-only-broker --ipc-rdr-channel=ko.8ebe3ab0.7148fdc0.2 --ipc-co-channel=ko.95cfcf24.4eb2326f.1 --proc=14064 --helperprocpid=8164 --channeltype=2
+-4375549238616573313 8164 C:\PROGRAM FILES (X86)\ADOBE\ACROBAT READER DC\READER\ACRORD32.EXE 1 C:\Program Files (x86)\Adobe\Acrobat Reader DC\Reader\AcroRd32.exe E:\\BACKUP_chijung.jung\\00. Papers\\00_Important\\A Survey on Aerial Swarm Robotics.pdf

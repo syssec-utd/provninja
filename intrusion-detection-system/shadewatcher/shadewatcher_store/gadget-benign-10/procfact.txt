@@ -1,0 +1,5 @@
+4
+-7100024338661345719 1576 C:\\PROGRAM FILES (X86)\\ADOBE\\ACROBAT READER DC\\READER\\ACRORD32.EXE 21744 C:Program Files (x86)AdobeAcrobat Reader DCReaderAcroRd32.exe --type=renderer /prefetch:1 C:UsersChijung JungDesktopref153_Robotic herding of a flock of birds using an unmanned aerial vehicle.pdf
+-8964952486573412780 11632 C:\WINDOWS\EXPLORER.EXE 1 C:\WINDOWS\Explorer.EXE
+143285081180068745 21744 C:\\PROGRAM FILES (X86)\\ADOBE\\ACROBAT READER DC\\READER\\ACRORD32.EXE 21744 null
+-2228062359532426636 21744 C:\\PROGRAM FILES (X86)\\ADOBE\\ACROBAT READER DC\\READER\\ACRORD32.EXE 11632 C:Program Files (x86)AdobeAcrobat Reader DCReaderAcroRd32.exe C:UsersChijung JungDesktopref153_Robotic herding of a flock of birds using an unmanned aerial vehicle.pdf

@@ -1,0 +1,24 @@
+23
+3097397546661190935 22504 C:\\PROGRAM FILES (X86)\\MICROSOFT OFFICE\\ROOT\\OFFICE16\\EXCEL.EXE 5356 C:Program Files (x86)Microsoft OfficeRootOffice16EXCEL.EXE D:College2021FallResearchstructural_reductionall_score_CPR.csv
+7338065699624268277 19024 C:\PROGRAM FILES (X86)\MICROSOFT OFFICE\ROOT\OFFICE16\EXCEL.EXE 1 C:\Program Files (x86)\Microsoft Office\Root\Office16\EXCEL.EXE D:\\College\\2021\\Fall\\Research\\structural_reduction\\all_score_LOGAPPROX.csv
+-4820636639688578420 8100 C:\PROGRAM FILES (X86)\MICROSOFT OFFICE\ROOT\OFFICE16\EXCEL.EXE 1 C:\Program Files (x86)\Microsoft Office\Root\Office16\EXCEL.EXE D:\\College\\2021\\Fall\\Research\\structural_reduction\\all_score_LOGAPPROX.csv
+3749784207781554720 956 C:\PROGRAM FILES (X86)\MICROSOFT OFFICE\ROOT\OFFICE16\EXCEL.EXE 1 C:\Program Files (x86)\Microsoft Office\Root\Office16\EXCEL.EXE D:\\College\\2021\\Fall\\Research\\structural_reduction\\all_score_LOGAPPROX.csv
+5091531099454493674 4352 null 1 
+4270303748944146355 7912 C:\PROGRAM FILES (X86)\MICROSOFT OFFICE\ROOT\OFFICE16\EXCEL.EXE 1 C:\Program Files (x86)\Microsoft Office\Root\Office16\EXCEL.EXE D:\\College\\2021\\Fall\\Research\\structural_reduction\\all_score_PCAR.csv
+8174341926550788498 3652 C:\PROGRAM FILES (X86)\MICROSOFT OFFICE\ROOT\OFFICE16\EXCEL.EXE 1 C:\Program Files (x86)\Microsoft Office\Root\Office16\EXCEL.EXE D:\\College\\2021\\Fall\\Research\\structural_reduction\\all_score_PCAR.csv
+-5965604190551205856 4884 C:\PROGRAM FILES (X86)\MICROSOFT OFFICE\ROOT\OFFICE16\EXCEL.EXE 1 C:\Program Files (x86)\Microsoft Office\Root\Office16\EXCEL.EXE D:\\College\\2021\\Fall\\Research\\structural_reduction\\all_score_CPR.csv
+-8637295183115851606 18052 C:\PROGRAM FILES (X86)\MICROSOFT OFFICE\ROOT\OFFICE16\EXCEL.EXE 1 C:\Program Files (x86)\Microsoft Office\Root\Office16\EXCEL.EXE D:\\College\\2021\\Fall\\Research\\structural_reduction\\all_score_PCAR.csv
+671267710252338689 16136 C:\USERS\KAER\.JDKS\OPENJDK-15.0.2\BIN\JAVA.EXE 1 C:\Users\kaer\.jdks\openjdk-15.0.2\bin\java.exe -javaagent:D:\\JetBrains\\IntelliJ Idea 2021.2.3\\lib\\idea_rt.jar=19922:D:\\JetBrains\\IntelliJ Idea 2021.2.3\\bin -Dfile.encoding=UTF-8 -classpath D:\\College\\2021\\Fall\\Research\\structural_reduction\\target\\classe
+3805375453613253064 14660 C:\PROGRAM FILES (X86)\MICROSOFT OFFICE\ROOT\OFFICE16\EXCEL.EXE 1 C:\Program Files (x86)\Microsoft Office\Root\Office16\EXCEL.EXE D:\\College\\2021\\Fall\\Research\\structural_reduction\\all_score_JANK_REDUCTION.csv
+-1809581961350450110 4504 C:\PROGRAM FILES (X86)\MICROSOFT OFFICE\ROOT\OFFICE16\EXCEL.EXE 1 C:\Program Files (x86)\Microsoft Office\Root\Office16\EXCEL.EXE D:\\College\\2021\\Fall\\Research\\structural_reduction\\all_score_CPR.csv
+3857377875813986013 5864 C:\PROGRAM FILES (X86)\MICROSOFT OFFICE\ROOT\OFFICE16\EXCEL.EXE 1 C:\Program Files (x86)\Microsoft Office\Root\Office16\EXCEL.EXE D:\\College\\2021\\Fall\\Research\\structural_reduction\\all_score_CPR.csv
+-6806480296806817791 20704 C:\PROGRAM FILES (X86)\MICROSOFT OFFICE\ROOT\OFFICE16\EXCEL.EXE 1 C:\Program Files (x86)\Microsoft Office\Root\Office16\EXCEL.EXE D:\\College\\2021\\Fall\\Research\\structural_reduction\\all_score_CPR.csv
+7320400160211605401 4 (System) 1 (System)
+-3666800182046757337 5828 C:\WINDOWS\SYSTEM32\SVCHOST.EXE 1 C:\WINDOWS\system32\svchost.exe -k netsvcs -p -s wuauserv
+4579291517438833668 4200 C:\PROGRAM FILES (X86)\MICROSOFT\EDGE\APPLICATION\MSEDGE.EXE 1 C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe --no-startup-window /prefetch:5
+3092978643625585728 21072 C:\PROGRAM FILES (X86)\MICROSOFT OFFICE\ROOT\OFFICE16\EXCEL.EXE 1 C:\Program Files (x86)\Microsoft Office\Root\Office16\EXCEL.EXE D:\\College\\2021\\Fall\\Research\\structural_reduction\\all_score_CPR.csv
+2633935999205218305 21508 C:\PROGRAM FILES (X86)\MICROSOFT OFFICE\ROOT\OFFICE16\EXCEL.EXE 1 C:\Program Files (x86)\Microsoft Office\Root\Office16\EXCEL.EXE D:\\College\\2021\\Fall\\Research\\structural_reduction\\all_score_CPR.csv
+6503850601117023437 13372 C:\PROGRAM FILES (X86)\MICROSOFT OFFICE\ROOT\OFFICE16\EXCEL.EXE 1 C:\Program Files (x86)\Microsoft Office\Root\Office16\EXCEL.EXE D:\\College\\2021\\Fall\\Research\\structural_reduction\\all_score_JANK_REDUCTION.csv
+2403568547242862656 5356 C:\WINDOWS\EXPLORER.EXE 1 C:\WINDOWS\Explorer.EXE
+-8767852232018156156 14648 C:\PROGRAM FILES (X86)\MICROSOFT OFFICE\ROOT\OFFICE16\WINWORD.EXE 1 C:\Program Files (x86)\Microsoft Office\Root\Office16\WINWORD.EXE -Embedding
+8000077460228785999 20068 C:\WINDOWS\SYSTEM32\SVCHOST.EXE 1 C:\WINDOWS\system32\svchost.exe -k UnistackSvcGroup -s CDPUserSvc

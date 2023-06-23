@@ -1,0 +1,6 @@
+5
+2525371752994763249 4984 C:\\WINDOWS\\SYSTEM32\\CMD.EXE 4984 null
+-7630841862127222096 2148 C:\\PROGRAM FILES\\ADOBE\\READER 9.0\\READER\\ACRORD32.EXE 4984 C:Program FilesAdobeReader 9.0ReaderAcroRd32.exe C:Userstarget0Documentspdf-sample-old.pdf
+-5727377217384377386 4984 C:\\WINDOWS\\SYSTEM32\\CMD.EXE 1520 C:WindowsSystem32cmd.exe /Q /C %HOMEDRIVE%&cd %HOMEPATH%&(if exist Desktoppdf-sample-old.pdf (cd Desktop))&(if exist My Documentspdf-sample-old.pdf (cd My Documents))&(if exist Documentspdf-sample-old.pdf (cd Documents))&(if exist Escr
+-3435203297233346031 1520 C:\PROGRAM FILES\ADOBE\READER 9.0\READER\ACRORD32.EXE 1 C:\Program Files\Adobe\Reader 9.0\Reader\AcroRd32.exe -Embedding
+-1876579090722272189 872 C:\WINDOWS\SYSTEM32\SVCHOST.EXE 1 C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted
