@@ -13,7 +13,7 @@ docker build . -t shadewatcher
 Once built, run the container interactively:
 
 ```shell
-docker run -it --mount type=bind,source="$(pwd)",target=/data -e DATASET_DIR=/data --name shadewatcher shadewatcher
+docker run -it --mount type=bind,source="$(pwd)",target=/data --name shadewatcher shadewatcher
 ```
 
 ## Execution

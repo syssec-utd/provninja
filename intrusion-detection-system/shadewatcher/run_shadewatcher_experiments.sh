@@ -15,3 +15,6 @@ python3.6 shadewatcher_train.py "$STORE_DIR/gadget-benign-*" $model-gadget --gnn
 python3.6 shadewatcher_eval.py "$STORE_DIR/gadget-benign-*" $STORE_DIR/$model-gadget $test_dir/$model-gadget.csv --benign --threshold=$threshold
 # evaluate on anomaly dataset to obtain tn, fp
 python3.6 shadewatcher_eval.py "$STORE_DIR/gadget-anomaly-*" $STORE_DIR/$model-gadget $test_dir/$model-gadget.csv --threshold=$threshold
+
+## visualize
+python3.6 stat_eval.py $test_dir
