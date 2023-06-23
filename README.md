@@ -109,10 +109,9 @@ python provninjaGraph.py
 #### ShadeWatcher
 
 * [ShadeWatcher](intrusion-detection-system/shadewatcher/README.md)
-  * Demonstrate usage of gadgets on edge-classification model [ShadeWatcher](https://jun-zeng.github.io/file/shadewatcher_paper.pdf) 
-  * Follow [README](intrusion-detection-system/shadewatcher/README.md) instructions on bootstrapping a testing env. and running dataset
-  * Gadget graphs evade edge-level anomaly detections much more often than raw attack
-
+  * Demonstrate usage of gadgets against an edge-classification model [ShadeWatcher](https://jun-zeng.github.io/file/shadewatcher_paper.pdf) 
+  * Follow [README](intrusion-detection-system/shadewatcher/README.md) instructions on bootstrapping a testing env. and running a sample enterprise APT dataset
+  * Gadget graphs evade edge-level anomaly detections much more often than naive APT attacks
 
 
 ## Citing us
