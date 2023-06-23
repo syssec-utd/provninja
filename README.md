@@ -106,7 +106,7 @@ Running the ProvNinja-Graph script:
 python provninjaGraph.py
 ```
 
-#### ShadeWatcher
+#### ShadeWatcher[[3]](#references)
 
 * [ShadeWatcher](intrusion-detection-system/shadewatcher/README.md)
   * Demonstrate usage of gadgets against an edge-classification model [ShadeWatcher](https://jun-zeng.github.io/file/shadewatcher_paper.pdf) 
@@ -133,3 +133,5 @@ USENIX Security Symposium (SEC), 2021. <br>
 [2] Q. Wang, W. U. Hassan, D. Li, et al., “_You Are What
 You Do: Hunting Stealthy Malware via Data Provenance Analysis_,” in Network and Distributed System
 Security Symposium (NDSS), Feb. 2020. <br>
+[3] J. Zengy, X. Wang, J. Liu, et al., “_Shadewatcher: Recommendation-guided cyber threat analysis using
+system audit records_,” in IEEE Symposium on Security and Privacy (SP), 2022
