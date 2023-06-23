@@ -106,7 +106,7 @@ Running the ProvNinja-Graph script:
 python provninjaGraph.py
 ```
 
-#### ShadeWatcher[[3]](#references)
+### ShadeWatcher[[3]](#references)
 
 * [ShadeWatcher](intrusion-detection-system/shadewatcher/README.md)
   * Demonstrate usage of gadgets against an edge-classification model [ShadeWatcher](https://jun-zeng.github.io/file/shadewatcher_paper.pdf) 
