@@ -1,9 +1,11 @@
 import argparse
 import logging
 import os
+from pathlib import Path
 
 from datetime import datetime
 
+from numpy import require
 import torch
 
 from nn_types.gat import KLayerHeteroRGAT
@@ -18,6 +20,7 @@ os.makedirs("logs", exist_ok=True)
 os.makedirs("runs", exist_ok=True)
 os.makedirs("models", exist_ok=True)
 os.makedirs("images", exist_ok=True)
+
 
 # Graph Classifier for Prov Graph Dataset (ie benign or malicious)
 class BinaryHeteroClassifier(nn.Module):
@@ -186,11 +189,19 @@ def main():
         help="Variable Prediction Threshold for Anomaly",
         required=False,
     )
+    parser.add_argument(
+        "-i",
+        "--input_dir",
+        type=Path,
+        default="sample-supply-chain-data",
+        help="Input directory",
+        required=False,
+    )
 
     parsed_arguments = parser.parse_args()
 
     neural_network_type = parsed_arguments.nn_type.lower()
-    dataset_dir_path = os.path.join(os.getcwd(), "sample-supply-chain-data")
+    dataset_dir_path = parsed_arguments.input_dir
     input_feature_size = parsed_arguments.input_feature
     hidden_feature_size = parsed_arguments.hidden_feature
     loss_rate = parsed_arguments.loss_rate
@@ -357,7 +368,10 @@ def main():
     #         os.path.join(os.getcwd(), 'models', log_name + '.bin'))
 
     model.load_state_dict(
-        th.load(os.path.join(os.getcwd(), "models", log_name + ".bin"), map_location=device)
+        th.load(
+            os.path.join(dataset_dir_path, "models", log_name + ".bin"),
+            map_location=device,
+        )
     )
     model.eval()
 
