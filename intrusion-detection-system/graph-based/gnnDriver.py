@@ -268,10 +268,16 @@ def main():
 
     # load dataset
     if structural:
-        node_attributes = {"ProcessNode": [], "SocketChannelNode": [], "FileNode": []}
+        node_attributes = {
+            "VirtualNode": [],
+            "ProcessNode": [],
+            "SocketChannelNode": [],
+            "FileNode": [],
+        }
     else:
         # string embedding
         node_attributes = {
+            "VirtualNode": ["TYPE"],
             "ProcessNode": ["EXE_NAME"],
             "SocketChannelNode": ["LOCAL_INET_ADDR"],
             "FileNode": ["FILENAME_SET"],
