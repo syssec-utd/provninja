@@ -352,28 +352,28 @@ def main():
         structural=structural,
     )
 
-    # train_binary_graph_classification(
-    #     model,
-    #     writer,
-    #     train_dataset,
-    #     val_dataset,
-    #     test_dataset,
-    #     loss_rate,
-    #     epochs,
-    #     log,
-    #     structural,
-    #     feature_aggregation_func=agg_func,
-    #     dynamic_lr=dynamic_lr,
-    #     num_workers=num_workers,
-    #     batch_size=batch_size,
-    #     device=device,
-    #     remove_stratified_sampler=remove_stratified_sampler,
-    #     train_validation_confusion_matrix=train_validation_confusion_matrix,
-    #     benign_downsampling_training=benign_downsampling_training,
-    #     anomaly_threshold=anomaly_threshold)
-    #
-    # th.save(model.state_dict(),
-    #         os.path.join(os.getcwd(), 'models', log_name + '.bin'))
+    train_binary_graph_classification(
+        model,
+        writer,
+        train_dataset,
+        val_dataset,
+        test_dataset,
+        loss_rate,
+        epochs,
+        log,
+        structural,
+        feature_aggregation_func=agg_func,
+        dynamic_lr=dynamic_lr,
+        num_workers=num_workers,
+        batch_size=batch_size,
+        device=device,
+        remove_stratified_sampler=remove_stratified_sampler,
+        train_validation_confusion_matrix=train_validation_confusion_matrix,
+        benign_downsampling_training=benign_downsampling_training,
+        anomaly_threshold=anomaly_threshold)
+
+    th.save(model.state_dict(),
+            os.path.join(os.getcwd(), 'models', log_name + '.bin'))
 
     model.load_state_dict(
         th.load(
