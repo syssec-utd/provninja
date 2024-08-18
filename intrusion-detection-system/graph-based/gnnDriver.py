@@ -284,6 +284,7 @@ def main():
         }
 
     relation_attributes = {
+        ("ProcessNode", "FILE_EXEC", "VirtualNode"): [],
         ("ProcessNode", "PROC_CREATE", "ProcessNode"): [],
         ("ProcessNode", "READ", "FileNode"): [],
         ("ProcessNode", "WRITE", "FileNode"): [],
@@ -300,6 +301,7 @@ def main():
     # that we wish to supply to the model to train with
     def feature_aggregation_function(graph):
         return {
+            "VirtualNode": (torch.empty(0)),
             "FileNode": graph.nodes["FileNode"].data["FILENAME_SET"]
             if graph.num_nodes("FileNode")
             else torch.empty(0),
