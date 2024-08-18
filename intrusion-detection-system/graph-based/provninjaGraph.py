@@ -167,6 +167,7 @@ if parsed_arguments.device is not None:
     device = torch.device(parsed_arguments.device)
 
 node_attributes = {
+    "VirtualNode": [],
     "ProcessNode": ["EXE_NAME"],
     "SocketChannelNode": ["LOCAL_INET_ADDR"],
     "FileNode": ["FILENAME_SET"],

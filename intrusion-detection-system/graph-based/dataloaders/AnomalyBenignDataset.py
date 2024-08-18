@@ -93,6 +93,7 @@ class AnomalyBenignDataset(ProvDataset):
 
 if __name__ == '__main__':
     node_attributes = {
+        'VirtualNode': [],
         'ProcessNode': ['EXE_NAME'],
         'SocketChannelNode': ['LOCAL_INET_ADDR'],
         'FileNode': ['AGENT_ID', 'FILENAME_SET']
