@@ -421,7 +421,7 @@ def train_binary_graph_classification(
     assert 1 in dataset_labels_numpy, "Dataset must contain at least one 1 label"
 
     class_weights = compute_class_weight(
-        class_weight="balanced", classes=[0, 1], y=dataset_labels_numpy
+        class_weight="balanced", classes=np.array([0, 1]), y=dataset_labels_numpy
     )
 
     class_weights = th.tensor(class_weights, dtype=th.float, device=device)
